@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Framework">
+      <UniqueIdentifier>{4e4a6a07-d337-42ef-975e-413637bbb864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\More advanced demos">
+      <UniqueIdentifier>{e38293cc-3428-43ad-958b-907f28db06b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CW2">
+      <UniqueIdentifier>{6c304dc8-ad8f-4d3f-8f82-b86eb31c055f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CW2\GameObjects">
+      <UniqueIdentifier>{ea20a1a9-9078-407d-ac4b-962b0c474b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CW2\Managers">
+      <UniqueIdentifier>{ad325f26-622e-492b-a67d-e5cf65dae515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CW2\States">
+      <UniqueIdentifier>{c99b52ba-426a-4696-bbaf-6672e77198e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tower Defence">
+      <UniqueIdentifier>{dbefcc15-118c-4ef2-80d9-37df3cae4e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tower Defence\GameObjects">
+      <UniqueIdentifier>{dd5eb8f6-eb9e-4c92-ab5d-0aa3e3042899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tower Defence\Managers">
+      <UniqueIdentifier>{3de32867-8394-4e39-9420-46effaef629e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tower Defence\States">
+      <UniqueIdentifier>{032353fb-c3c1-4441-b002-e557162b45f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{2aa7c3b3-10f1-464f-9309-9b24ce8b7b95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEngine.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayableObject.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayableObjectContainer.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleImage.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilMovementPosition.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilCollisionDetection.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagePixelMapping.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilDragAlignment.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingSurface.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterPoints.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="RawImageData.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilCachedSimpleTrig.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DraggingDemo.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashingDemo.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageMappingDemo.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleFlashingDragableImageObject.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="StarfieldDemo.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoomingDemo.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleDragableObjects.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleFilterPointClasses.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="MainEngine.h">
+      <Filter>Header Files\CW2</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletObject.h">
+      <Filter>Header Files\CW2\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyObject.h">
+      <Filter>Header Files\CW2\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\CW2\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Header Files\CW2\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\CW2\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainTileManager.h">
+      <Filter>Header Files\CW2\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveManager.h">
+      <Filter>Header Files\CW2\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="PausedState.h">
+      <Filter>Header Files\CW2\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObject.h">
+      <Filter>Header Files\CW2\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="RunningState.h">
+      <Filter>Header Files\CW2\States</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerObject.h">
+      <Filter>Header Files\CW2\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveGameManager.h">
+      <Filter>Header Files\CW2\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Header Files\CW2\States</Filter>
+    </ClInclude>
+    <ClInclude Include="WinState.h">
+      <Filter>Header Files\CW2\States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainfunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainEngine.cpp">
+      <Filter>Source Files\Tower Defence</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletObject.cpp">
+      <Filter>Source Files\Tower Defence\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyObject.cpp">
+      <Filter>Source Files\Tower Defence\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Tower Defence\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Source Files\Tower Defence\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PausedState.cpp">
+      <Filter>Source Files\Tower Defence\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Source Files\Tower Defence\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainTileManager.cpp">
+      <Filter>Source Files\Tower Defence\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject.cpp">
+      <Filter>Source Files\Tower Defence\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="RunningState.cpp">
+      <Filter>Source Files\Tower Defence\States</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveGameManager.cpp">
+      <Filter>Source Files\Tower Defence\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerObject.cpp">
+      <Filter>Source Files\Tower Defence\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="WinState.cpp">
+      <Filter>Source Files\Tower Defence\States</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveManager.cpp">
+      <Filter>Source Files\Tower Defence\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEngine.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayableObject.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingSurface.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleImage.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
