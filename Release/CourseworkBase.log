@@ -1,0 +1,31 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppClean.targets(77,5): warning : Access to the path 'c:\users\maxsl\desktop\git\tower defence\release\courseworkbase2020.exe' is denied.
+  BaseEngine.cpp
+  BulletObject.cpp
+  DisplayableObject.cpp
+  DrawingSurface.cpp
+  EnemyObject.cpp
+  FontManager.cpp
+  GameObject.cpp
+  GameOverState.cpp
+  MainEngine.cpp
+  mainfunction.cpp
+  MainTileManager.cpp
+  MenuState.cpp
+  PausedState.cpp
+  PlayerObject.cpp
+  RunningState.cpp
+  SaveGameManager.cpp
+  SimpleImage.cpp
+  TileManager.cpp
+  TowerObject.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_math_defines.h(28,9): warning C4005: 'M_PI': macro redefinition
+  (compiling source file 'TowerObject.cpp')
+      C:\Users\maxsl\Desktop\git\Tower Defence\SDL\include\SDL_stdinc.h(499,9):
+      see previous definition of 'M_PI'
+  
+  WaveManager.cpp
+  Generating Code...
+  Compiling...
+  WinState.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'C:\Users\maxsl\Desktop\git\Tower Defence\\Release\CourseworkBase2020.exe'
